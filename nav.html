@@ -1,0 +1,145 @@
+
+<nav>
+
+    <div class="nimage">
+        <img class="don" src="/sheek.png" alt="">
+    </div>
+    <div>
+        <button type="button" class="bts btn-success" data-bs-toggle="modal" data-bs-target="#cartModal">
+            <!-- <sup><span class="decreaseBtn">➖</span></sup> -->
+            Cart🛒<sup><span class="badge bg-danger" id="bot"></span></sup></button>
+
+        <button type="button" class="bts btn-success">Sign In</button>
+    </div>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+
+        <i class="fa-solid fa-bars"></i>
+
+    </label>
+    <ul>
+        <li class="lol"> <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                data-bs-target="#cartModal">
+
+                Cart🛒<sup><span class="badge bg-primary" id="bel"></span></sup></button> </li>
+        <li><a class="active" href="#">Store</a></li>
+        <li><a href="/Location.html">Location</a></li>
+        <li><a href="#">Franchising</a></li>
+        <li class="image">
+            <a href="#"><img class="don" src="/sheek.png" alt=""></a>
+        </li>
+        <li><a href="#">Catering</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li class="lol"> <button type="button" class="btn btn-success">Sign In</button> </li>
+
+    </ul>
+</nav>
+<!-- --------------------------------------------------------modal-------------------------------------- -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Cart</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- ------------------------------------------------------------------------- -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/pexel.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-bo">
+                                <h5 class="card-title">ZEN MATCHA</h5>
+                                <p class="card-text"></p>
+                                <p class="card-text"><small class="text-body-secondary">25$</small></p>
+                                <p class="minadd"><span class="decreaseBtn" onclick="decreaseNumber()">➖</span><span
+                                        id="zen">0</span><span id="zenadd" class="btnss"
+                                        onclick="increaseNumber()">➕</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/riri.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-bo">
+                                <h5 class="card-title">RUBY BURST</h5>
+                                <p class="card-text"></p>
+                                <p class="card-text"><small class="text-body-secondary">25$</small></p>
+
+                                <p class="minadd"><span class="decreaseBtn" onclick="decreaseNumbe()">➖</span><span
+                                        id="ruby">0</span><span id="rubadd" class="btnss"
+                                        onclick="increaseNumbe()">➕</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/smurf.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-bo">
+                                <h5 class="card-title">BLUE LAGOON</h5>
+                                <p class="card-text"></p>
+                                <p class="card-text"><small class="text-body-secondary">25$</small></p>
+
+                                <p class="minadd"><span class="decreaseBtn" onclick="decreaseNumb()">➖</span><span
+                                        id="blue">0</span><span id="bluadd" class="btnss"
+                                        onclick="increaseNumb()">➕</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/pexel.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-bo">
+                                <h5 class="card-title">NOGTASTIC DELIGHT</h5>
+                                <p class="card-text"></p>
+                                <p class="card-text"><small class="text-body-secondary">25$</small></p>
+
+                                <p class="minadd"><span class="decreaseBtn" onclick="decreaseNum()">➖</span><span
+                                        id="nog">0</span><span id="nogadd" class="btnss"
+                                        onclick="increaseNum()">➕</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------- -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Place Order</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------------------------------------------------------------end of navbar----------------------------------------- -->
+    <div class="gap">
+
+    </div>
